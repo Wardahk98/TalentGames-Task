@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class=" text-center m-5">
+  <h1>User Authentication</h1>
+  <a href="{% url 'register' %}"><button type="button" class="btn btn-primary btn-lg">Register</button></a>
+  <a href="{% url 'login' %}"><button type="button" class="btn btn-primary btn-lg">Login</button></a>
+
+</div>
+
+
+
+{% endblock %}
